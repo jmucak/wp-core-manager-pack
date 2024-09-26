@@ -12,6 +12,8 @@ class WPEmoji {
 		// Disable emoji
 		add_action( 'init', array( $this, 'disable_emoji' ) );
 		add_filter( 'tiny_mce_plugins', array( $this, 'disable_emoji_tinymce' ) );
+		remove_action('wp_head', 'print_emoji_detection_script', 7);
+		remove_action('wp_print_styles', 'print_emoji_styles');
 	}
 
 	/**
