@@ -1,0 +1,19 @@
+{
+  "name": "jmucak/wp-optimization-pack",
+  "description": "WP Optimization pack",
+  "require": {
+    "php": ">=8.0"
+  },
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Josip Mucak"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "jmucak\\wpOptimizationPack\\": "src"
+    }
+  }
+}
