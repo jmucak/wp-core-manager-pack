@@ -1,4 +1,4 @@
-# wp-image-pack
+# wp-core-manager-pack
 
 ## Table of contents
 
@@ -10,9 +10,9 @@
 
 ### Project info
 
-WordPress optimization pack for custom theme and plugins development
+WordPress core manager pack
 
-- repository: `https://github.com/jmucak/wp-optimization-pack`
+- repository: `https://github.com/jmucak/wp-core-manager-pack`
 
 ### Requirements
 
@@ -23,7 +23,7 @@ WordPress optimization pack for custom theme and plugins development
 
 #### Template setup
 
-- Run `composer require jmucak/wp-optimization-pack` inside your custom theme or plugin folder
+- Run `composer require jmucak/wp-core-manager-pack` inside your custom theme or plugin folder
 
 ### Features
 

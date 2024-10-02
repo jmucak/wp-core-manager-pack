@@ -1,12 +1,12 @@
 <?php
 
-namespace jmucak\wpOptimizationPack\providers;
+namespace jmucak\wpCoreManagerPack\providers;
 
-use jmucak\wpOptimizationPack\hooks\Comments;
-use jmucak\wpOptimizationPack\hooks\Posts;
-use jmucak\wpOptimizationPack\hooks\Scripts;
-use jmucak\wpOptimizationPack\hooks\WPEmbeds;
-use jmucak\wpOptimizationPack\hooks\WPEmoji;
+use jmucak\wpCoreManagerPack\hooks\Comments;
+use jmucak\wpCoreManagerPack\hooks\Posts;
+use jmucak\wpCoreManagerPack\hooks\Scripts;
+use jmucak\wpCoreManagerPack\hooks\WPEmbeds;
+use jmucak\wpCoreManagerPack\hooks\WPEmoji;
 
 class OptimizationProvider {
 	public static function register( array $config ): void {

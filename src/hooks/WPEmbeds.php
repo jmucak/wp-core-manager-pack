@@ -1,6 +1,6 @@
 <?php
 
-namespace jmucak\wpOptimizationPack\hooks;
+namespace jmucak\wpCoreManagerPack\hooks;
 
 class WPEmbeds {
 	public function deactivate(): void {

@@ -1,6 +1,6 @@
 <?php
 
-namespace jmucak\wpOptimizationPack\hooks;
+namespace jmucak\wpCoreManagerPack\hooks;
 
 class WPEmoji {
 	public function deactivate(): void {
